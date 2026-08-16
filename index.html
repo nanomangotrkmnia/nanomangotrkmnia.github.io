@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nanomango — Java Developer</title>
+    <meta name="description" content="nanomango is a Java developer with 4 months of experience building Minecraft mods, plugins and clients.">
+    <link rel="icon" type="image/png" href="assets/mangocat.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="./">
+                <img src="assets/mangocat.png" alt="nanomango">
+                nanomango<span class="dot">.</span>
+            </a>
+            <div class="nav-links">
+                <a href="./" class="active">Home</a>
+                <a href="projects/">Projects</a>
+                <a href="contact/">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero container">
+            <div>
+                <span class="eyebrow"><span class="pulse"></span> open to work</span>
+                <h1>Java Developer.<br>Brewing <span class="accent">mango</span>-grade code.</h1>
+                <p class="subtitle">
+                    Hi, I'm <code>nanomango</code> — a Java developer with 4 months of experience.
+                    I build Minecraft clients, mods and plugins while sharpening my Java every day.
+                </p>
+                <div class="btn-row">
+                    <a class="btn btn-primary" href="projects/">
+                        View projects
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a class="btn btn-ghost" href="contact/">Get in touch</a>
+                </div>
+            </div>
+
+            <div class="terminal">
+                <div class="terminal-head">
+                    <span class="tl red"></span>
+                    <span class="tl yellow"></span>
+                    <span class="tl green"></span>
+                    <span class="path">~/nanomango</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="line"><span class="cm">// whoami</span></div>
+                    <div class="line"><span class="kw">String</span> role = <span class="str">"Java Developer"</span>;</div>
+                    <div class="line"><span class="kw">int</span> experience = <span class="num">4</span>; <span class="cm">// months</span></div>
+                    <div class="line"><span class="kw">boolean</span> lovesMangoes = <span class="kw">true</span>;</div>
+                    <div class="line">&nbsp;</div>
+                    <div class="line"><span class="fn">System</span>.out.println(</div>
+                    <div class="line">  <span class="str">"mangos on top."</span></div>
+                    <div class="line">);</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section-head">
+                <div class="kicker">// toolkit</div>
+                <h2>What I work with</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="assets/java.svg" alt="Java" width="40" height="40">
+                    <div class="name">Java</div>
+                    <div class="lvl">core focus · 4 mo</div>
+                </div>
+                <div class="skill">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#9aa3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/><path d="m6 17 12-4"/></svg>
+                    <div class="name">Cooking</div>
+                    <div class="lvl">home cooking</div>
+                </div>
+                <div class="skill">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#9aa3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    <div class="name">Chinese</div>
+                    <div class="lvl">simplified & traditional</div>
+                </div>
+                <div class="skill">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#9aa3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>
+                    <div class="name">PC Building</div>
+                    <div class="lvl">custom builds</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase container" id="showcase">
+            <div class="section-head showcase-head">
+                <div class="kicker">// featured</div>
+                <h2>Explore</h2>
+            </div>
+
+            <div class="tabs" role="tablist">
+                <button class="tab active" data-tab="featured">Featured</button>
+                <button class="tab" data-tab="skills">Skills</button>
+                <button class="tab" data-tab="hobbies">Hobbies</button>
+                <button class="tab" data-tab="friends">Friends</button>
+            </div>
+
+            <div class="panes">
+                <div class="pane active" id="pane-featured">
+                    <div class="projects-grid">
+                        <a class="project" href="https://github.com/nanomangotrkmnia/KRS-ohio-ver" target="_blank" rel="noopener">
+                            <div class="project-top">
+                                <span class="icon-badge">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#ff8a00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18M3 21L21 3"/></svg>
+                                </span>
+                                <span class="tag">Java</span>
+                            </div>
+                            <h3>KRS Client (fork)</h3>
+                            <p>Contributor to the KRS utility client. Feature work and fixes — mangos on top.</p>
+                            <div class="tags">
+                                <span class="tag">Minecraft</span>
+                                <span class="tag">Client</span>
+                            </div>
+                            <span class="repo-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.2-3.08-.12-.3-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.75.12 3.05.74.8 1.2 1.83 1.2 3.08 0 4.4-2.69 5.39-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.2.68.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                                github.com/nanomangotrkmnia
+                            </span>
+                        </a>
+
+                        <a class="project" href="https://github.com/nanomangotrkmnia/Nano-s-Performance" target="_blank" rel="noopener">
+                            <div class="project-top">
+                                <span class="icon-badge">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#ff8a00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h6l-1 8 9-12h-6z"/></svg>
+                                </span>
+                                <span class="tag">Modpack</span>
+                            </div>
+                            <h3>nanomango's Performance</h3>
+                            <p>A Minecraft performance modpack tuned for smoother gameplay and lower lag.</p>
+                            <div class="tags">
+                                <span class="tag">Minecraft</span>
+                                <span class="tag">Performance</span>
+                            </div>
+                            <span class="repo-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.2-3.08-.12-.3-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.75.12 3.05.74.8 1.2 1.83 1.2 3.08 0 4.4-2.69 5.39-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.2.68.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                                github.com/nanomangotrkmnia
+                            </span>
+                        </a>
+
+                        <a class="project" href="https://github.com/nanomangotrkmnia/EconomyBounty" target="_blank" rel="noopener">
+                            <div class="project-top">
+                                <span class="icon-badge">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="#ff8a00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M15 9.5c0-1.4-1.3-2-3-2s-3 .6-3 2 1.4 1.7 3 2 3 .6 3 2-1.3 2-3 2-3-.6-3-2"/></svg>
+                                </span>
+                                <span class="tag">Java</span>
+                            </div>
+                            <h3>Economy Bounty</h3>
+                            <p>An economy bounty system — a server-side project exploring Java plugins.</p>
+                            <div class="tags">
+                                <span class="tag">Plugin</span>
+                                <span class="tag">Economy</span>
+                            </div>
+                            <span class="repo-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.2-3.08-.12-.3-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.75.12 3.05.74.8 1.2 1.83 1.2 3.08 0 4.4-2.69 5.39-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.2.68.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                                github.com/nanomangotrkmnia
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pane" id="pane-skills">
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#9aa3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v4a6 6 0 0 1-12 0zM6 4H4a2 2 0 0 0 2 3M18 4h2a2 2 0 0 1-2 3"/></svg>
+                            <div class="name">Java</div>
+                            <div class="lvl">core focus · 4 mo</div>
+                            <div class="desc">OOP fundamentals, practiced daily.</div>
+                        </div>
+                        <div class="skill">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#9aa3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/><path d="m6 17 12-4"/></svg>
+                            <div class="name">Cooking</div>
+                            <div class="lvl">home cooking</div>
+                            <div class="desc">Kitchen experiments on the daily.</div>
+                        </div>
+                        <div class="skill">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#9aa3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <div class="name">Chinese</div>
+                            <div class="lvl">simplified & traditional</div>
+                            <div class="desc">Reading and writing in both scripts.</div>
+                        </div>
+                        <div class="skill">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#9aa3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>
+                            <div class="name">PC Building</div>
+                            <div class="lvl">custom builds</div>
+                            <div class="desc">Picking parts and putting them together.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pane" id="pane-hobbies">
+                    <div class="hobby-grid">
+                        <div class="card">
+                            <h3>Minecraft</h3>
+                            <p>Building, exploring and breaking blocks since forever.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Modding</h3>
+                            <p>Tinkering with clients, mods and plugins.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Mangoes</h3>
+                            <p>The superior fruit. No debate.</p>
+                        </div>
+                        <div class="card">
+                            <h3>PC Building</h3>
+                            <p>Picking parts and chasing frames.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Reading</h3>
+                            <p>Novels and manhwas, one chapter at a time.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Cooking</h3>
+                            <p>Experimenting in the kitchen.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Bedwars</h3>
+                            <p>Breaking beds and taking names.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pane" id="pane-friends">
+                    <div class="friend-grid">
+                        <div class="card friend">
+                            <img class="friend-avatar" src="assets/friend-1.png" alt="Jamal Haung">
+                            <h3>Jamal Haung</h3>
+                            <span class="tag">friend</span>
+                        </div>
+                        <a class="card friend" href="https://discord.gg/nMTEzHcwSW" target="_blank" rel="noopener">
+                            <h3>KRS Discord</h3>
+                            <p>Join the KRS client community.</p>
+                            <span class="tag">discord</span>
+                            <span class="hint">click me to get invite</span>
+                        </a>
+                        <div class="card friend">
+                            <img class="friend-avatar" src="assets/friend-2.png" alt="Coda">
+                            <h3>Coda</h3>
+                            <span class="tag">friend</span>
+                        </div>
+                    </div>
+                    <p class="pane-note">More friends, communities &amp; servers will be added here soon.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="about">
+                <img class="mango-badge" src="assets/mangocat.png" alt="mangocat">
+                <div>
+                    <h2>i love mangos.</h2>
+                    <p>
+                        I'm early in my Java journey — four months in and enjoying every line.
+                        I learn by building real projects: contributing to clients, shipping modpacks,
+                        and writing plugins. If it's Java and it compiles, I'm interested.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a class="brand" href="./">
+                <img src="assets/mangocat.png" alt="nanomango">
+                nanomango<span class="dot">.</span>
+            </a>
+            <span class="made">// built with Java vibes & mangoes</span>
+        </div>
+    </footer>
+
+    <script>
+        const tabs = document.querySelectorAll('.tab');
+        const panes = document.querySelectorAll('.pane');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                panes.forEach(p => p.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById('pane-' + tab.dataset.tab).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
