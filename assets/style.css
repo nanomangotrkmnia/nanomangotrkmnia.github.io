@@ -461,12 +461,6 @@ a { color: inherit; text-decoration: none; }
 
 .card.friend { display: flex; flex-direction: column; gap: 0.6rem; align-items: flex-start; }
 
-.card.friend .hint {
-    color: var(--accent-2);
-    font-size: 0.78rem;
-    font-family: var(--mono);
-}
-
 .card.friend .friend-avatar {
     width: 56px;
     height: 56px;
@@ -474,6 +468,21 @@ a { color: inherit; text-decoration: none; }
     object-fit: cover;
     border: 2px solid var(--accent);
     box-shadow: 0 0 0 6px rgba(255, 138, 0, 0.1);
+}
+
+.card.friend .hint {
+    color: var(--accent-2);
+    font-size: 0.78rem;
+    font-family: var(--mono);
+}
+
+.card.friend .quote {
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-style: italic;
+    border-left: 2px solid var(--accent);
+    padding-left: 0.7rem;
+    margin-top: 0.2rem;
 }
 
 .pane-note { color: var(--muted); font-size: 0.85rem; font-family: var(--mono); margin-top: 1.25rem; }
